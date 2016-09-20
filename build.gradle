@@ -1,0 +1,15 @@
+group 'uk.co.tpplc.middleware'
+version '1.0.0'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.github.fge:json-schema-validator:2.2.6'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:3.5.2'
+}
